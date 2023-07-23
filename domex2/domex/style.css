@@ -1,0 +1,83 @@
+body{
+    background: linear-gradient(to top,darkblue,blue,skyblue);
+    margin: 0;
+}
+.main{
+    background: linear-gradient(to top,darkblue,blue,skyblue);
+    border-radius: 30px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin: 200px;
+    width: 60vw;
+    height: 60vh;
+}
+#mail{
+    display: flex;
+    float: right;
+    border-radius: 20px;
+}
+#pass{
+    display: flex;
+    float: right;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+#submit{
+    display: flex;
+    float: right;
+    align-items: center;
+    justify-content: center;
+    border-radius: 60px;
+
+}
+#maillab{
+     font-size: 20px;
+
+}
+#passlab{
+    font-size: 20px;
+}
+.darkmode{
+    background: linear-gradient(to top,crimson,red,orange,yellow);
+}
+.darkmodeinside{
+    background: linear-gradient(to top,crimson,red,orange,yellow);
+}
+.theme{
+    background: blue;
+    width: 100px;
+    height: 40px;
+    border-radius: 40px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.theme1{
+    background: Red;
+    width: 100px;
+    height: 40px;
+    border-radius: 40px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.navbar{
+    background: transparent;
+    box-shadow: 1px 10px 105px skyblue,1px 10px 105px rgb(46, 55, 212);  
+    height: 30px;
+    width: 100vw;
+    word-spacing: 60px;
+    padding: 10px;
+}
+#leftitem{
+    float: right;
+    padding-right: 20px;
+    text-decoration: none;
+}
+#set,#abt{
+    text-decoration: none;
+}
+.darknav{
+    box-shadow: 1px 10px 105px yellow,1px 10px 105px rgb(216, 6, 6);
+}

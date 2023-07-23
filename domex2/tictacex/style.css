@@ -1,0 +1,39 @@
+.wrapper{
+    height: 60vh;
+    background-color: aqua;
+    display: flex;
+}
+.maingame{
+font-family: serif; 
+border: 3px solid;
+border-radius: 30px;
+padding: 20px;
+background: linear-gradient(to bottom,red,black);
+text-align: center;
+justify-content: center;
+align-items: center;
+width: 50vw;
+height: 50vh;
+margin: auto;
+}
+.ChoiceBtn{
+line-height: 30px;
+width: 150px;
+}
+#PlayerText{
+    color: yellow;
+}
+#ComputerText{
+    color: red;
+}
+@media screen and (max-width: 600px){
+ .maingame{
+    font-size: 15px;
+    word-wrap: normal;
+ }   
+}
+@media screen and (min-width: 600px){
+    .maingame{
+       font-size: 10px;
+    }   
+   }
